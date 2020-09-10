@@ -1,8 +1,8 @@
-## RealSenseHololens
+# RealSenseHololens
 Learning journal on how to create Simultaneous localization and mapping (SLAM) with RealSense and interact with that virtual world with Hololens
 
 
-# Resources
+## Resources
 * Visual Studio 2019
 * Unity (Version 2017.3.1f1)
 * CMake (Version 3.18.2, Windows win32-x86 Installer) https://cmake.org/download/
