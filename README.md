@@ -21,3 +21,5 @@ Learning journal on how to create Simultaneous localization and mapping (SLAM) w
 * SLAM
   * https://www.youtube.com/watch?v=wVsfCnyt5jA
   * https://google-cartographer-ros.readthedocs.io/en/latest/algo_walkthrough.html
+* Hololens
+  * https://docs.microsoft.com/en-us/windows/mixed-reality/unity-development-overview?tabs=mrtk%2Carr%2Chl2
