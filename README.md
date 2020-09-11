@@ -20,3 +20,4 @@ Learning journal on how to create Simultaneous localization and mapping (SLAM) w
   * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/
 * SLAM
   * https://www.youtube.com/watch?v=wVsfCnyt5jA
+  * https://google-cartographer-ros.readthedocs.io/en/latest/algo_walkthrough.html
