@@ -2,7 +2,7 @@
 Learning journal on how to create Simultaneous localization and mapping (SLAM) with RealSense and interact with that virtual world with Hololens
 
 
-## Resources
+## Set Up
 * Visual Studio 2019
 * Unity (Version 2017.3.1f1)
 * CMake (Version 3.18.2, Windows win32-x86 Installer) https://cmake.org/download/
@@ -13,6 +13,14 @@ Learning journal on how to create Simultaneous localization and mapping (SLAM) w
 ## Prerequisites
 * Unity 
   * https://learn.unity.com/project/roll-a-ball?uv=2019.4
+  * https://www.coursera.org/learn/introduction-programming-unity/home/welcome
+  * https://www.udemy.com/course/devslopes-unity3d/learn/lecture/6006552?start=45#overview
+  * https://www.lynda.com/Azure-tutorials/Introduction/693098/748589-4.html
 * C#
+  * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/
+* SLAM
+  * https://www.youtube.com/watch?v=wVsfCnyt5jA
+  * https://google-cartographer-ros.readthedocs.io/en/latest/algo_walkthrough.html
+* Hololens
+  * https://docs.microsoft.com/en-us/windows/mixed-reality/unity-development-overview?tabs=mrtk%2Carr%2Chl2
 
-close branch
