@@ -7,7 +7,7 @@ Double has more bits than float.
 
 # Type cast
     (float)Math.PI
-
+.
     float cosine = (float)Math.Cos(degree * (float)Math.PI / 180);
 
 # Prompting for and Getting
