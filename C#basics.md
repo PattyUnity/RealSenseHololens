@@ -1,11 +1,14 @@
 
 
-#Floating Point Data types
+# Floating Point Data types
 Real numbers are represented by float and double. 
 Real numbers are continuous but computer can only represents them in the discrete domain. 
 Double has more bits than float.
 
-#Prompting for and Getting
+# Type cast
+    (float)Math.PI
+
+# Prompting for and Getting
 To prompt for an input, you could use something like:
 
     Console.Write("Enter first altitude: ");
