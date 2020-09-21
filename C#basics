@@ -8,8 +8,8 @@ Double has more bits than float.
 # Prompting for and Getting
 To prompt for an input, you could use something like:
 
-\tt{Console.Write("Enter~first~altitude:~");}Console.Write("Enter first altitude: ");
+    Console.Write("Enter first altitude: ");
 
 To read, parse, and store an altitude typed in by the user, you could use something like:
 
-\tt{int~firstAltitude = int.Parse(Console.ReadLine());}int firstAltitude=int.Parse(Console.ReadLine());
+    int firstAltitude=int.Parse(Console.ReadLine());
