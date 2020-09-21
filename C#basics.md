@@ -6,8 +6,11 @@ Real numbers are continuous but computer can only represents them in the discret
 Double has more bits than float.
 
 # Type cast
+ex1
+
     (float)Math.PI
-.
+ex2
+
     float cosine = (float)Math.Cos(degree * (float)Math.PI / 180);
 
 # Prompting for and Getting
