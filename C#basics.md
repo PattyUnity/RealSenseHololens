@@ -99,26 +99,43 @@ https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
 # INTRODUCTION TO CLASSES AND OBJECTS
 
 ## The difference between classes and objects
-
-## State, behavior, and identity
-State 
-    * = Characteristics of the object
-    * Can change over time
-    * Stored in fields
-    * Accessed through properties
-Behavior
-    * = What we can do to the object
-    * = What the object to do to itself
-    * Accessed through methods
-Identity
-    * What we can distinguish one object from another
-    * Memory address of that object
+### Class
+* Template for creating objects
+* Defines the fields, properties and behavior of every object of the class
+* _Cookie cutter_
+* Reference type
+    
+### Object
+* Actual instance of the class in memory
+* Each object stores its own state
     
 
+## State, behavior, and identity of an object
+### State 
+* = Characteristics of the object
+* Can change over time
+* Stored in fields
+* Accessed through __properties__
+### Behavior
+* = What we can do to the object
+* = What the object to do to itself
+* Accessed through __methods__
+### Identity
+* What we can distinguish one object from another
+* Memory address of that object
+* instantiate by __constructor__
 
-## How to construct objects
+Fields, properties and methods are represented in UML which stands for **Unified Modeling Language**
+
+## How to use constructor
+* To create or instantiate an object and give __identity__ to the object
+* Require a ()
 
 ## How to use properties
+* To access __state__ of and object
+* Does not require a parentheses ()
 
 ## How to use methods
+* To access __behaviours__ of an object
+* Require a () 
 
