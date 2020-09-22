@@ -39,6 +39,7 @@ or
 https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
 
 ## Runing the code multiple time with different inputs
+```c#
         static void Main(string[] args)
         {
             // loop while there's more input
@@ -94,7 +95,7 @@ https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
             #endregion
 
         }    
-
+```
 # INTRODUCTION TO CLASSES AND OBJECTS
 
 ## The difference between classes and objects
@@ -120,3 +121,4 @@ Identity
 ## How to use properties
 
 ## How to use methods
+
