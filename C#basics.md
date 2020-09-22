@@ -1,6 +1,6 @@
+# STARTING TO PROGRAM
 
-
-# Floating Point Data types
+## Floating Point Data types
 Real numbers are represented by float and double. 
 Real numbers are continuous but computer can only represents them in the discrete domain. 
 Double has more bits than float.
@@ -10,7 +10,7 @@ When working with calculation, data type really matters.
     float: floating point numbers are approximations of the real numbers in the continuous domain
     double: double data types uses more bytes than the float data type and thus more accurate than float
 
-# Type cast
+## Type cast
 ex1
 
     (float)Math.PI
@@ -18,7 +18,7 @@ ex2
 
     float cosine = (float)Math.Cos(degree * (float)Math.PI / 180);
 
-# Prompting for and Getting
+## Prompting for and Getting
 To prompt for an input, you could use something like:
 
     Console.Write("Enter first altitude: ");
@@ -30,15 +30,17 @@ or
 
     float angle = float.Parse(Console.ReadLine());
     
-# Shorthand equation format
+## Shorthand equation format
     // the line of code below is shorthand for
     // angle = angle * Math.PI / 180;
     angle *= (float)Math.PI / 180;
     
-# Math Class Documentation
+## Math Class Documentation
 https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
 
-# Runing the code multiple time with different inputs
+## Runing the code multiple time with different inputs
+        static void Main(string[] args)
+        {
             // loop while there's more input
             string input = Console.ReadLine();
             while (input[0] != 'q')
@@ -57,5 +59,64 @@ https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
                 // this comment
                 input = Console.ReadLine();
             }    
+        }
+
+        /// <summary>
+        /// Extracts point coordinates from the given input string
+        /// </summary>
+        /// <param name="input">input string</param>
+        static void GetInputValuesFromString(string input)
+        {
+            // extract point 1 x
+            int spaceIndex = input.IndexOf(' ');
+            point1X = float.Parse(input.Substring(0, spaceIndex));
+
+            // move along string and extract point 1 y
+            input = input.Substring(spaceIndex + 1);
+            spaceIndex = input.IndexOf(' ');
+            point1Y = float.Parse(input.Substring(0, spaceIndex));
+
+            // move along string and extract point 2 x
+            input = input.Substring(spaceIndex + 1);
+            spaceIndex = input.IndexOf(' ');
+            point2X = float.Parse(input.Substring(0, spaceIndex));
+
+            // point 2 y is the rest of the string
+            input = input.Substring(spaceIndex + 1);
+            point2Y = float.Parse(input);
+
+            #region Unfortunately, Mono doesn't have a Split method!
+            //string[] values = input.Split(' ');
+            //point1X = float.Parse(values[0]);
+            //point1Y = float.Parse(values[1]);
+            //point2X = float.Parse(values[2]);
+            //point2Y = float.Parse(values[3]);
+            #endregion
+
+        }    
+
+# INTRODUCTION TO CLASSES AND OBJECTS
+
+## The difference between classes and objects
+
+## State, behavior, and identity
+State 
+    * = Characteristics of the object
+    * Can change over time
+    * Stored in fields
+    * Accessed through properties
+Behavior
+    * = What we can do to the object
+    * = What the object to do to itself
+    * Accessed through methods
+Identity
+    * What we can distinguish one object from another
+    * Memory address of that object
     
 
+
+## How to construct objects
+
+## How to use properties
+
+## How to use methods
