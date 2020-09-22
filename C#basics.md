@@ -38,6 +38,24 @@ or
 # Math Class Documentation
 https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
 
+# Runing the code multiple time with different inputs
+            // loop while there's more input
+            string input = Console.ReadLine();
+            while (input[0] != 'q')
+            {
+                // extract point coordinates from string
+                GetInputValuesFromString(input);
 
+                // Add your code between this comment
+                // and the comment below. You can of
+                // course add more space between the
+                // comments as needed
+
+
+
+                // Don't add or modify any code below
+                // this comment
+                input = Console.ReadLine();
+            }    
     
 
