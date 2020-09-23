@@ -31,9 +31,15 @@ or
     float angle = float.Parse(Console.ReadLine());
     
 ## Shorthand equation format
+```c#
     // the line of code below is shorthand for
     // angle = angle * Math.PI / 180;
     angle *= (float)Math.PI / 180;
+```
+
+Note: Using __newScale.x *= 4;__ is the same as using __newScale.x  =  newScale.x  ∗  4;__. You'll see lots of programmers using the ∗= (and +=, −=, and /=) shorthand.
+
+    
     
 ## Math Class Documentation
 https://docs.microsoft.com/en-us/dotnet/api/system.math?view=netcore-3.1
