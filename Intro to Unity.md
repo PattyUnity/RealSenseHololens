@@ -1,4 +1,9 @@
 # Unity Editor
+## Documentation
+Manual
+* file:///C:/Program%20Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Documentation/en/Manual/class-Transform.html
+Scripting API
+* https://docs.unity3d.com/ScriptReference/Transform.html
 
 # Sprites and Game Objects
 ## Sprites
